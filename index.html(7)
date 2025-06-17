@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D'KEETCHEN - Abuja</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #222;
+  }
+  header {
+    background-color: #ffc107;
+    padding: 20px;
+    text-align: center;
+    color: #222;
+  }
+  .hero {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .menu {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  .menu h2 {
+    background-color: #ffc107;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .menu li {
+    margin: 8px 0;
+    font-size: 1.1rem;
+  }
+  .gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 20px;
+  }
+  .gallery img {
+    height: 200px;
+    border-radius: 8px;
+  }
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to D'KEETCHEN</h1>
+  <p>Fresh, Delicious, Affordable</p>
+</header>
+
+<section class="hero">
+  <h1>Order Meals, Juices & More</h1>
+  <p>Location: F.C.D.A Quarters, Bwari, Abuja</p>
+</section>
+
+<section class="menu">
+  <h2>Main Dishes</h2>
+  <ul>
+    <li>Chicken or Beef Noodles (stir-fried with veggies) — ₦4000</li>
+    <li>D'Jollof Pasta (Spaghetti w/ special sauce, veggies, eggs) — ₦3500</li>
+    <li>Boiled Yam or Plantain & Egg Sauce (rich with veggies) — ₦4400</li>
+    <li>French Toast & Hot Choco/Coffee (+ Hot Dog & spread choice) — ₦4400</li>
+    <li>Jollof Rice or Fried Rice (with Chicken or Beef) — ₦4700</li>
+    <li>Pepper Soup (protein choice with white rice or plantain) — ₦4700</li>
+  </ul>
+
+  <h2>Sides</h2>
+  <ul>
+    <li>Chicken — ₦2500</li>
+    <li>Beef — ₦800</li>
+    <li>Goat Meat — ₦1200</li>
+    <li>Hot Dog — ₦500</li>
+    <li>ColeSlaw — ₦700</li>
+    <li>Egg — ₦500</li>
+    <li>Fried Yam — ₦2500</li>
+    <li>Fried Plantain — ₦1000</li>
+  </ul>
+
+  <h2>Fruit Juice</h2>
+  <ul>
+    <li>Pineapple + ginger {Pinger} — ₦2500</li>
+    <li>Water Melon + ginger {Melgin} — ₦2000</li>
+    <li>Orange Juice — ₦2500</li>
+    <li>Zobo drink — ₦1000</li>
+  </ul>
+
+  <h2>Drinks</h2>
+  <ul>
+    <li>Bottled Water — ₦300</li>
+    <li>Fanta / Coke / Sprite — ₦700</li>
+    <li>Cold Caprisun — ₦450</li>
+    <li>Chiexotic (Big) — ₦2000</li>
+  </ul>
+</section>
+
+<section class="gallery">
+  <img src="images/Assorted Jollof rice Chicken and Plaintain.jpg" alt="Jollof Rice Chicken">
+  <img src="images/assorted jollof rice.jpg" alt="Assorted Jollof Rice">
+  <img src="images/assorted noodles mix.jpg" alt="Noodles Mix">
+  <img src="images/indomie and eggs.jpg" alt="Indomie and Eggs">
+  <img src="images/pinger and melgin.jpg" alt="Juices">
+</section>
+
+<a href="https://wa.me/2347042351139" class="whatsapp-button" target="_blank">💬</a>
+
+</body>
+</html>
